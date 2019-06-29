@@ -1,0 +1,39 @@
+body {
+	font-family: Arial Narrow, sans-serif;
+}
+
+.container-fluid {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 20px 3%;
+}
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+.title {
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.jumbotron { 
+	background-color: #eeeeee;
+	padding: 3%;
+}
+
+.form-control {
+	width: 100%;
+	border: 1px solid #e0e0e0;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.text-indicator{
+	margin-left: auto;
+}
+
+.red-tex {
+	color: red;
+}
